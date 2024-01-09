@@ -5,6 +5,7 @@ const loginController = require("./Controller/loginController");
 const registerController = require("./Controller/registerController");
 require("dotenv").config();
 const mongoose = require("mongoose");
+const getQuestionsController = require("./Controller/getQuestionsController");
 
 const app = express();
 mongoose
@@ -24,3 +25,4 @@ app.listen(process.env.PORT, () => {
 
 app.post("/auth/login", loginController);
 app.post("/auth/register", registerController);
+app.get("/getQuestions", getQuestionsController);
