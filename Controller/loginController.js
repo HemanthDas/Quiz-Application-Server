@@ -1,9 +1,9 @@
 const User = require("../model/User");
+const generateToken = require("../service/authService");
 const loginController = async (req, res) => {
   const { username, password } = req.body;
   try {
     const user = await User.findOne({ username });
-    console.log(user);
     if (!user) {
       res.status(404).json({
         status: "error",
@@ -20,8 +20,14 @@ const loginController = async (req, res) => {
     res.status(200).json({
       status: "success",
       message: "User logged in successfully",
-      token: "token",
+      token: await generateToken(user),
     });
-  } catch {}
+  } catch (error) {
+    console.error("Error logging in:", error);
+    res.status(500).json({
+      status: "error",
+      message: "Internal server error",
+    });
+  }
 };
 module.exports = loginController;
