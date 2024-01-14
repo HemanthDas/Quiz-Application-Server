@@ -1,9 +1,10 @@
-const User = require("../model/User");
-const generateToken = require("../service/authService");
+const { getUserModel } = require("../../database/userDB");
+const generateToken = require("../../service/authService");
 const loginController = async (req, res) => {
   const { username, password } = req.body;
   try {
-    const user = await User.findOne({ username });
+    const userModel = await getUserModel();
+    const user = await userModel.findOne({ username });
     if (!user) {
       res.status(404).json({
         status: "error",

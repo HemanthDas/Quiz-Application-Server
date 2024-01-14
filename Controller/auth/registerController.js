@@ -1,8 +1,8 @@
-const User = require("../model/User");
+const udb = require("../../database/userDB");
 const registerController = async (req, res) => {
   const { email, username, password } = req.body;
   try {
-    const newUser = new User({
+    const newUser = new udb({
       email,
       username,
       password,
