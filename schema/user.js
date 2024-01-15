@@ -14,5 +14,22 @@ const newUserSchema = new mongoose.Schema({
     type: String,
     required: [true, "Password is required"],
   },
+  exam: [
+    {
+      subject: {
+        type: String,
+        default: false,
+      },
+      score: {
+        type: String,
+        default: false,
+      },
+      time: {
+        type: String,
+        default: new Date().toLocaleString(),
+      },
+    },
+  ],
 });
+
 module.exports = newUserSchema;
