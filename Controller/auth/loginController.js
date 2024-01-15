@@ -4,12 +4,20 @@ const loginController = async (req, res) => {
   const { username, password } = req.body;
   try {
     const userModel = await getUserModel();
+    if (userModel === undefined) {
+      res.status(500).json({
+        status: "error",
+        message: "Internal server error",
+      });
+      return;
+    }
     const user = await userModel.findOne({ username });
     if (!user) {
       res.status(404).json({
         status: "error",
         message: "User not found",
       });
+      return;
     }
     const isPasswordCorrect = user.password === password;
     if (!isPasswordCorrect) {

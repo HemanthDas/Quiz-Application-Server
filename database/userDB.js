@@ -9,6 +9,11 @@ const getDb = async () => {
 };
 const getUserModel = async () => {
   const userDB = await getDb();
+  console.log(userDB);
+  if (!userDB) {
+    console.log("Error connecting to database");
+    return;
+  }
   return userDB.model("user", newUserSchema);
 };
 module.exports = { getUserModel };
