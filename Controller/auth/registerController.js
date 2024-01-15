@@ -1,8 +1,16 @@
-const udb = require("../../database/userDB");
+const { getUserModel } = require("../../database/userDB");
 const registerController = async (req, res) => {
   const { email, username, password } = req.body;
   try {
-    const newUser = new udb({
+    const userModel = await getUserModel();
+    if (userModel === undefined) {
+      res.status(500).json({
+        status: "error",
+        message: "Internal server error",
+      });
+      return;
+    }
+    const newUser = new userModel({
       email,
       username,
       password,

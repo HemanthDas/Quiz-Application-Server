@@ -2,6 +2,7 @@ const express = require("express");
 const jwt = require("jsonwebtoken");
 const cors = require("cors");
 const authRoute = require("./routes/authRouter");
+const subjectRoute = require("./routes/subjectsRouter");
 require("dotenv").config();
 const mongoose = require("mongoose");
 
@@ -14,3 +15,4 @@ app.listen(process.env.PORT, () => {
 });
 
 app.use("/auth", authRoute);
+app.use("/api", subjectRoute);

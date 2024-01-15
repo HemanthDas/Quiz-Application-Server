@@ -1,6 +1,7 @@
-const Subject = require("../../model/subject");
+const { getSubjectModel } = require("../../database/questionsDB");
 const subjectListController = async (req, res) => {
   try {
+    const Subject = await getSubjectModel();
     const subjectList = await Subject.find({});
     res.status(200).json(subjectList);
   } catch (error) {
