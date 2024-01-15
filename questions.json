@@ -1,3 +1,506 @@
 [
-  
+  {
+    "_id": "1",
+    "name": "G.K",
+    "questions": [
+      {
+        "id": "1",
+        "question": "Earth moving around the sun at  ____________ per hour",
+        "answers": [
+          "670,000 miles",
+          "67,000 miles",
+          "6,700 miles",
+          "670 miles"
+        ],
+        "correctAnswer": "67,000 miles"
+      },
+      {
+        "id": "2",
+        "question": "Earth is Mostly Comprised of the following except ________",
+        "answers": ["Iron", "Air", "Silicon", "Oxygen"],
+        "correctAnswer": "Air"
+      },
+      {
+        "id": "3",
+        "question": "The highest recorded temperature on Earth is  ________",
+        "answers": [
+          "134 degrees Fahrenheit",
+          "34 degrees Fahrenheit",
+          "20 degrees Fahrenheit",
+          "160 degrees Fahrenheit"
+        ],
+        "correctAnswer": "134 degrees Fahrenheit"
+      },
+      {
+        "id": "5",
+        "question": "Earth is 4.5 Billion Years Old",
+        "answers": ["True", "False"],
+        "correctAnswer": "True"
+      },
+      {
+        "id": "6",
+        "question": "The lowest recorded temperature on Earth is _______",
+        "answers": [
+          "128.5 degrees Fahrenheit",
+          "0 degrees Fahrenheit",
+          "-100.5 degrees Fahrenheit",
+          "-128.5 degrees Fahrenheit"
+        ],
+        "correctAnswer": "-128.5 degrees Fahrenheit"
+      },
+      {
+        "id": "7",
+        "question": "The Earth’s Atmosphere Extends to a Distance of 10,000 km",
+        "answers": ["False", "True", "Maybe"],
+        "correctAnswer": "True"
+      },
+      {
+        "id": "8",
+        "question": "A year on Earth is exactly ______ days ",
+        "answers": ["366", "365", "365.2564", "300"],
+        "correctAnswer": "365.2564"
+      },
+      {
+        "id": "9",
+        "question": "",
+        "answers": [
+          "nearly 30 kilometers per second",
+          "nearly 30 meters per second",
+          "nearly 30 kilometers per minute",
+          "nearly 30 meters per minute"
+        ],
+        "correctAnswer": "nearly 30 kilometers per second"
+      },
+      {
+        "id": "10",
+        "question": "Earth is Almost a Sphere",
+        "answers": ["True", "False", "I don't know"],
+        "correctAnswer": "True"
+      }
+    ]
+  },
+
+  {
+    "_id": "2",
+    "name": "Physics",
+    "questions": [
+      {
+        "id": "1",
+        "question": "What is the formula for calculating force?",
+        "answers": ["F = ma", "E = mc^2", "P = mv", "F = mv"],
+        "correctAnswer": "F = ma"
+      },
+      {
+        "id": "2",
+        "question": "What is the SI unit of power?",
+        "answers": ["Watt", "Joule", "Newton", "Volt"],
+        "correctAnswer": "Watt"
+      },
+      {
+        "id": "3",
+        "question": "What is the speed of light in a vacuum?",
+        "answers": [
+          "299,792,458 m/s",
+          "300,000,000 m/s",
+          "3,000,000 m/s",
+          "3 x 10^8 m/s"
+        ],
+        "correctAnswer": "299,792,458 m/s"
+      },
+      {
+        "id": "4",
+        "question": "What is the law of conservation of energy?",
+        "answers": [
+          "Energy cannot be created or destroyed, only transformed or transferred",
+          "Energy can be created or destroyed",
+          "Energy is always conserved in a closed system",
+          "Energy is proportional to mass and the square of the speed of light"
+        ],
+        "correctAnswer": "Energy cannot be created or destroyed, only transformed or transferred"
+      },
+      {
+        "id": "5",
+        "question": "What is the unit of electric charge?",
+        "answers": ["Coulomb", "Ampere", "Volt", "Ohm"],
+        "correctAnswer": "Coulomb"
+      },
+      {
+        "id": "6",
+        "question": "What is the law of gravitation?",
+        "answers": [
+          "Every particle in the universe attracts every other particle with a force directly proportional to the product of their masses and inversely proportional to the square of the distance between them",
+          "The force between two charges is directly proportional to the product of their charges and inversely proportional to the square of the distance between them",
+          "The pressure of a gas is inversely proportional to its volume at constant temperature",
+          "The rate of change of momentum of an object is directly proportional to the force applied and takes place in the direction in which the force is applied"
+        ],
+        "correctAnswer": "Every particle in the universe attracts every other particle with a force directly proportional to the product of their masses and inversely proportional to the square of the distance between them"
+      },
+      {
+        "id": "7",
+        "question": "What is the unit of frequency?",
+        "answers": ["Hertz", "Watt", "Joule", "Newton"],
+        "correctAnswer": "Hertz"
+      },
+      {
+        "id": "8",
+        "question": "What is the law of reflection?",
+        "answers": [
+          "The angle of incidence is equal to the angle of reflection",
+          "The pressure of a gas is inversely proportional to its volume at constant temperature",
+          "The force between two charges is directly proportional to the product of their charges and inversely proportional to the square of the distance between them",
+          "The rate of change of momentum of an object is directly proportional to the force applied and takes place in the direction in which the force is applied"
+        ],
+        "correctAnswer": "The angle of incidence is equal to the angle of reflection"
+      },
+      {
+        "id": "9",
+        "question": "What is the unit of magnetic field?",
+        "answers": ["Tesla", "Watt", "Joule", "Newton"],
+        "correctAnswer": "Tesla"
+      },
+      {
+        "id": "10",
+        "question": "What is the law of conservation of momentum?",
+        "answers": [
+          "The total momentum of a closed system remains constant if no external forces act on it",
+          "Energy cannot be created or destroyed, only transformed or transferred",
+          "The pressure of a gas is inversely proportional to its volume at constant temperature",
+          "The force between two charges is directly proportional to the product of their charges and inversely proportional to the square of the distance between them"
+        ],
+        "correctAnswer": "The total momentum of a closed system remains constant if no external forces act on it"
+      }
+    ]
+  },
+
+  {
+    "_id": "3",
+    "name": "Chemistry",
+    "questions": [
+      {
+        "id": "1",
+        "question": "What is the SI unit of temperature?",
+        "answers": ["Kelvin", "Celsius", "Fahrenheit", "Rankine"],
+        "correctAnswer": "Kelvin"
+      },
+      {
+        "id": "2",
+        "question": "What is the SI unit of pressure?",
+        "answers": ["Pascal", "Newton", "Joule", "Watt"],
+        "correctAnswer": "Pascal"
+      },
+      {
+        "id": "3",
+        "question": "What is the SI unit of electric current?",
+        "answers": ["Ampere", "Coulomb", "Volt", "Ohm"],
+        "correctAnswer": "Ampere"
+      },
+      {
+        "id": "4",
+        "question": "What is the SI unit of energy?",
+        "answers": ["Joule", "Watt", "Newton", "Pascal"],
+        "correctAnswer": "Joule"
+      },
+      {
+        "id": "5",
+        "question": "What is the SI unit of frequency?",
+        "answers": ["Hertz", "Watt", "Joule", "Newton"],
+        "correctAnswer": "Hertz"
+      },
+      {
+        "id": "6",
+        "question": "What is the SI unit of power?",
+        "answers": ["Watt", "Joule", "Newton", "Volt"],
+        "correctAnswer": "Watt"
+      },
+      {
+        "id": "7",
+        "question": "What is the SI unit of electric charge?",
+        "answers": ["Coulomb", "Ampere", "Volt", "Ohm"],
+        "correctAnswer": "Coulomb"
+      },
+      {
+        "id": "8",
+        "question": "What is the SI unit of magnetic field?",
+        "answers": ["Tesla", "Watt", "Joule", "Newton"],
+        "correctAnswer": "Tesla"
+      },
+      {
+        "id": "9",
+        "question": "What is the SI unit of magnetic flux?",
+        "answers": ["Weber", "Watt", "Joule", "Newton"],
+        "correctAnswer": "Weber"
+      },
+      {
+        "id": "10",
+        "question": "What is the SI unit of magnetic flux density?",
+        "answers": ["Tesla", "Watt", "Joule", "Newton"],
+        "correctAnswer": "Tesla"
+      }
+    ]
+  },
+
+  {
+    "_id": "4",
+    "name": "Biology",
+    "questions": [
+      {
+        "id": "1",
+        "question": "What is the largest organ in the human body?",
+        "answers": ["Skin", "Heart", "Liver", "Brain"],
+        "correctAnswer": "Skin"
+      },
+      {
+        "id": "2",
+        "question": "What is the largest bone in the human body?",
+        "answers": ["Femur", "Tibia", "Fibula", "Humerus"],
+        "correctAnswer": "Femur"
+      },
+      {
+        "id": "3",
+        "question": "What is the largest muscle in the human body?",
+        "answers": ["Gluteus Maximus", "Biceps", "Triceps", "Quadriceps"],
+        "correctAnswer": "Gluteus Maximus"
+      },
+      {
+        "id": "4",
+        "question": "What is the largest internal organ in the human body?",
+        "answers": ["Liver", "Heart", "Brain", "Lungs"],
+        "correctAnswer": "Liver"
+      },
+      {
+        "id": "5",
+        "question": "What is the smallest bone in the human body?",
+        "answers": ["Stapes", "Malleus", "Incus", "Femur"],
+        "correctAnswer": "Stapes"
+      },
+      {
+        "id": "6",
+        "question": "What is the smallest muscle in the human body?",
+        "answers": ["Stapedius", "Sartorius", "Pectineus", "Gluteus Minimus"],
+        "correctAnswer": "Stapedius"
+      },
+      {
+        "id": "7",
+        "question": "What is the smallest organ in the human body?",
+        "answers": ["Pineal Gland", "Pituitary Gland", "Thyroid", "Appendix"],
+        "correctAnswer": "Pineal Gland"
+      },
+      {
+        "id": "8",
+        "question": "What is the smallest cell in the human body?",
+        "answers": ["Sperm", "Red Blood Cell", "White Blood Cell", "Platelet"],
+        "correctAnswer": "Sperm"
+      },
+      {
+        "id": "9",
+        "question": "What is the largest cell in the human body?",
+        "answers": ["Ovum", "Red Blood Cell", "White Blood Cell", "Platelet"],
+        "correctAnswer": "Ovum"
+      },
+      {
+        "id": "10",
+        "question": "What is the largest artery in the human body?",
+        "answers": [
+          "Aorta",
+          "Pulmonary Artery",
+          "Coronary Artery",
+          "Carotid Artery"
+        ],
+        "correctAnswer": "Aorta"
+      }
+    ]
+  },
+  {
+    "_id": "5",
+    "name": "Sports",
+    "questions": [
+      {
+        "id": "1",
+        "question": "Which country won the FIFA World Cup in 2018?",
+        "answers": ["France", "Croatia", "Belgium", "England"],
+        "correctAnswer": "France"
+      },
+      {
+        "id": "2",
+        "question": "Who holds the record for the most home runs in Major League Baseball?",
+        "answers": ["Barry Bonds", "Hank Aaron", "Babe Ruth", "Alex Rodriguez"],
+        "correctAnswer": "Barry Bonds"
+      },
+      {
+        "id": "3",
+        "question": "Which tennis player has won the most Grand Slam titles?",
+        "answers": [
+          "Roger Federer",
+          "Rafael Nadal",
+          "Novak Djokovic",
+          "Serena Williams"
+        ],
+        "correctAnswer": "Roger Federer"
+      },
+      {
+        "id": "4",
+        "question": "Which country has won the most Olympic gold medals?",
+        "answers": ["United States", "Soviet Union", "China", "Great Britain"],
+        "correctAnswer": "United States"
+      },
+      {
+        "id": "5",
+        "question": "Who is the all-time leading scorer in NBA history?",
+        "answers": [
+          "Kareem Abdul-Jabbar",
+          "LeBron James",
+          "Kobe Bryant",
+          "Michael Jordan"
+        ],
+        "correctAnswer": "Kareem Abdul-Jabbar"
+      },
+      {
+        "id": "6",
+        "question": "Which team has won the most Super Bowl championships?",
+        "answers": [
+          "New England Patriots",
+          "Pittsburgh Steelers",
+          "San Francisco 49ers",
+          "Dallas Cowboys"
+        ],
+        "correctAnswer": "New England Patriots"
+      },
+      {
+        "id": "7",
+        "question": "Who is the fastest man in the world?",
+        "answers": ["Usain Bolt", "Tyson Gay", "Yohan Blake", "Justin Gatlin"],
+        "correctAnswer": "Usain Bolt"
+      },
+      {
+        "id": "8",
+        "question": "Which golfer has won the most major championships?",
+        "answers": [
+          "Jack Nicklaus",
+          "Tiger Woods",
+          "Arnold Palmer",
+          "Phil Mickelson"
+        ],
+        "correctAnswer": "Jack Nicklaus"
+      },
+      {
+        "id": "9",
+        "question": "Which country has won the most FIFA World Cup titles?",
+        "answers": ["Brazil", "Germany", "Italy", "Argentina"],
+        "correctAnswer": "Brazil"
+      },
+      {
+        "id": "10",
+        "question": "Who is the most decorated Olympian of all time?",
+        "answers": [
+          "Michael Phelps",
+          "Usain Bolt",
+          "Simone Biles",
+          "Larisa Latynina"
+        ],
+        "correctAnswer": "Michael Phelps"
+      }
+    ]
+  },
+
+  {
+    "_id": "6",
+    "name": "History",
+    "questions": [
+      {
+        "id": "1",
+        "question": "Who was the first President of the United States?",
+        "answers": [
+          "George Washington",
+          "Thomas Jefferson",
+          "John Adams",
+          "Abraham Lincoln"
+        ],
+        "correctAnswer": "George Washington"
+      },
+      {
+        "id": "2",
+        "question": "Which war was fought between the North and South regions of the United States?",
+        "answers": [
+          "American Civil War",
+          "World War I",
+          "World War II",
+          "Vietnam War"
+        ],
+        "correctAnswer": "American Civil War"
+      },
+      {
+        "id": "3",
+        "question": "Which country was responsible for the Holocaust during World War II?",
+        "answers": ["Germany", "Japan", "Italy", "Soviet Union"],
+        "correctAnswer": "Germany"
+      },
+      {
+        "id": "4",
+        "question": "Who wrote the Declaration of Independence?",
+        "answers": [
+          "Thomas Jefferson",
+          "George Washington",
+          "John Adams",
+          "Benjamin Franklin"
+        ],
+        "correctAnswer": "Thomas Jefferson"
+      },
+      {
+        "id": "5",
+        "question": "Which city was the capital of the Roman Empire?",
+        "answers": ["Rome", "Athens", "Alexandria", "Constantinople"],
+        "correctAnswer": "Rome"
+      },
+      {
+        "id": "6",
+        "question": "Who was the leader of the Soviet Union during World War II?",
+        "answers": [
+          "Joseph Stalin",
+          "Vladimir Lenin",
+          "Mikhail Gorbachev",
+          "Nikita Khrushchev"
+        ],
+        "correctAnswer": "Joseph Stalin"
+      },
+      {
+        "id": "7",
+        "question": "Which country was the first to reach the moon?",
+        "answers": ["United States", "Soviet Union", "China", "India"],
+        "correctAnswer": "United States"
+      },
+      {
+        "id": "8",
+        "question": "Who was the first female Prime Minister of the United Kingdom?",
+        "answers": [
+          "Margaret Thatcher",
+          "Queen Elizabeth II",
+          "Theresa May",
+          "Angela Merkel"
+        ],
+        "correctAnswer": "Margaret Thatcher"
+      },
+      {
+        "id": "9",
+        "question": "Which event marked the beginning of World War I?",
+        "answers": [
+          "Assassination of Archduke Franz Ferdinand",
+          "Bombing of Pearl Harbor",
+          "Signing of the Treaty of Versailles",
+          "Invasion of Poland"
+        ],
+        "correctAnswer": "Assassination of Archduke Franz Ferdinand"
+      },
+      {
+        "id": "10",
+        "question": "Who was the first person to circumnavigate the globe?",
+        "answers": [
+          "Ferdinand Magellan",
+          "Christopher Columbus",
+          "James Cook",
+          "Marco Polo"
+        ],
+        "correctAnswer": "Ferdinand Magellan"
+      }
+    ]
+  }
 ]

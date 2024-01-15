@@ -5,6 +5,12 @@ const SubjectSchema = mongoose.Schema(
       type: String,
       required: true,
     },
+    questions: [
+      {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "questions",
+      },
+    ],
   },
   { timestamps: true }
 );

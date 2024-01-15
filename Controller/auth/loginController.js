@@ -29,7 +29,11 @@ const loginController = async (req, res) => {
     res.status(200).json({
       status: "success",
       message: "User logged in successfully",
-      token: await generateToken(user),
+      user: {
+        username: user.username,
+        email: user.email,
+      },
+      token: generateToken(user),
     });
   } catch (error) {
     console.error("Error logging in:", error);
