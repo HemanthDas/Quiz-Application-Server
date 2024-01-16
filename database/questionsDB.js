@@ -18,6 +18,9 @@ const getSubjectModel = async () => {
 };
 const getTopicModel = async () => {
   const subjectDB = await getSubjectDB();
+  if (!subjectDB) {
+    console.log("subjectDB is null");
+  }
   return subjectDB.model("topicname", SubjectSchema);
 };
 module.exports = { getSubjectModel, getTopicModel };

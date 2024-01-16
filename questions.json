@@ -1,505 +1,496 @@
 [
   {
-    "_id": "1",
-    "name": "G.K",
+    "_id": 1,
+    "name": "movies",
     "questions": [
       {
-        "id": "1",
-        "question": "Earth moving around the sun at  ____________ per hour",
-        "answers": [
-          "670,000 miles",
-          "67,000 miles",
-          "6,700 miles",
-          "670 miles"
+        "id": 1,
+        "question": "What is the name of the movie where a guy is stuck in a time loop?",
+        "options": [
+          "Groundhog Day",
+          "Edge of Tomorrow",
+          "Looper",
+          "Source Code"
         ],
-        "correctAnswer": "67,000 miles"
+        "answer": "Groundhog Day"
       },
       {
-        "id": "2",
-        "question": "Earth is Mostly Comprised of the following except ________",
-        "answers": ["Iron", "Air", "Silicon", "Oxygen"],
-        "correctAnswer": "Air"
-      },
-      {
-        "id": "3",
-        "question": "The highest recorded temperature on Earth is  ________",
-        "answers": [
-          "134 degrees Fahrenheit",
-          "34 degrees Fahrenheit",
-          "20 degrees Fahrenheit",
-          "160 degrees Fahrenheit"
+        "id": 2,
+        "question": "Who directed the movie 'Inception'?",
+        "options": [
+          "Christopher Nolan",
+          "Steven Spielberg",
+          "Martin Scorsese",
+          "Quentin Tarantino"
         ],
-        "correctAnswer": "134 degrees Fahrenheit"
+        "answer": "Christopher Nolan"
       },
       {
-        "id": "5",
-        "question": "Earth is 4.5 Billion Years Old",
-        "answers": ["True", "False"],
-        "correctAnswer": "True"
-      },
-      {
-        "id": "6",
-        "question": "The lowest recorded temperature on Earth is _______",
-        "answers": [
-          "128.5 degrees Fahrenheit",
-          "0 degrees Fahrenheit",
-          "-100.5 degrees Fahrenheit",
-          "-128.5 degrees Fahrenheit"
+        "id": 3,
+        "question": "Which actor played the character of Iron Man in the Marvel Cinematic Universe?",
+        "options": [
+          "Robert Downey Jr.",
+          "Chris Evans",
+          "Chris Hemsworth",
+          "Mark Ruffalo"
         ],
-        "correctAnswer": "-128.5 degrees Fahrenheit"
+        "answer": "Robert Downey Jr."
       },
       {
-        "id": "7",
-        "question": "The Earth’s Atmosphere Extends to a Distance of 10,000 km",
-        "answers": ["False", "True", "Maybe"],
-        "correctAnswer": "True"
-      },
-      {
-        "id": "8",
-        "question": "A year on Earth is exactly ______ days ",
-        "answers": ["366", "365", "365.2564", "300"],
-        "correctAnswer": "365.2564"
-      },
-      {
-        "id": "9",
-        "question": "",
-        "answers": [
-          "nearly 30 kilometers per second",
-          "nearly 30 meters per second",
-          "nearly 30 kilometers per minute",
-          "nearly 30 meters per minute"
+        "id": 4,
+        "question": "What is the highest-grossing film of all time?",
+        "options": [
+          "Avengers: Endgame",
+          "Avatar",
+          "Titanic",
+          "Star Wars: The Force Awakens"
         ],
-        "correctAnswer": "nearly 30 kilometers per second"
+        "answer": "Avengers: Endgame"
       },
       {
-        "id": "10",
-        "question": "Earth is Almost a Sphere",
-        "answers": ["True", "False", "I don't know"],
-        "correctAnswer": "True"
-      }
-    ]
-  },
-
-  {
-    "_id": "2",
-    "name": "Physics",
-    "questions": [
-      {
-        "id": "1",
-        "question": "What is the formula for calculating force?",
-        "answers": ["F = ma", "E = mc^2", "P = mv", "F = mv"],
-        "correctAnswer": "F = ma"
-      },
-      {
-        "id": "2",
-        "question": "What is the SI unit of power?",
-        "answers": ["Watt", "Joule", "Newton", "Volt"],
-        "correctAnswer": "Watt"
-      },
-      {
-        "id": "3",
-        "question": "What is the speed of light in a vacuum?",
-        "answers": [
-          "299,792,458 m/s",
-          "300,000,000 m/s",
-          "3,000,000 m/s",
-          "3 x 10^8 m/s"
+        "id": 5,
+        "question": "Which movie won the Best Picture award at the 2020 Oscars?",
+        "options": [
+          "Parasite",
+          "1917",
+          "Joker",
+          "Once Upon a Time in Hollywood"
         ],
-        "correctAnswer": "299,792,458 m/s"
+        "answer": "Parasite"
       },
       {
-        "id": "4",
-        "question": "What is the law of conservation of energy?",
-        "answers": [
-          "Energy cannot be created or destroyed, only transformed or transferred",
-          "Energy can be created or destroyed",
-          "Energy is always conserved in a closed system",
-          "Energy is proportional to mass and the square of the speed of light"
+        "id": 6,
+        "question": "Who played the character of Neo in the movie 'The Matrix'?",
+        "options": [
+          "Keanu Reeves",
+          "Tom Cruise",
+          "Brad Pitt",
+          "Leonardo DiCaprio"
         ],
-        "correctAnswer": "Energy cannot be created or destroyed, only transformed or transferred"
+        "answer": "Keanu Reeves"
       },
       {
-        "id": "5",
-        "question": "What is the unit of electric charge?",
-        "answers": ["Coulomb", "Ampere", "Volt", "Ohm"],
-        "correctAnswer": "Coulomb"
-      },
-      {
-        "id": "6",
-        "question": "What is the law of gravitation?",
-        "answers": [
-          "Every particle in the universe attracts every other particle with a force directly proportional to the product of their masses and inversely proportional to the square of the distance between them",
-          "The force between two charges is directly proportional to the product of their charges and inversely proportional to the square of the distance between them",
-          "The pressure of a gas is inversely proportional to its volume at constant temperature",
-          "The rate of change of momentum of an object is directly proportional to the force applied and takes place in the direction in which the force is applied"
+        "id": 7,
+        "question": "Which movie features the character of Jack Sparrow?",
+        "options": [
+          "Pirates of the Caribbean",
+          "The Lord of the Rings",
+          "Harry Potter and the Sorcerer's Stone",
+          "The Dark Knight"
         ],
-        "correctAnswer": "Every particle in the universe attracts every other particle with a force directly proportional to the product of their masses and inversely proportional to the square of the distance between them"
+        "answer": "Pirates of the Caribbean"
       },
       {
-        "id": "7",
-        "question": "What is the unit of frequency?",
-        "answers": ["Hertz", "Watt", "Joule", "Newton"],
-        "correctAnswer": "Hertz"
-      },
-      {
-        "id": "8",
-        "question": "What is the law of reflection?",
-        "answers": [
-          "The angle of incidence is equal to the angle of reflection",
-          "The pressure of a gas is inversely proportional to its volume at constant temperature",
-          "The force between two charges is directly proportional to the product of their charges and inversely proportional to the square of the distance between them",
-          "The rate of change of momentum of an object is directly proportional to the force applied and takes place in the direction in which the force is applied"
+        "id": 8,
+        "question": "Who directed the movie 'The Shawshank Redemption'?",
+        "options": [
+          "Frank Darabont",
+          "David Fincher",
+          "Stanley Kubrick",
+          "Quentin Tarantino"
         ],
-        "correctAnswer": "The angle of incidence is equal to the angle of reflection"
+        "answer": "Frank Darabont"
       },
       {
-        "id": "9",
-        "question": "What is the unit of magnetic field?",
-        "answers": ["Tesla", "Watt", "Joule", "Newton"],
-        "correctAnswer": "Tesla"
-      },
-      {
-        "id": "10",
-        "question": "What is the law of conservation of momentum?",
-        "answers": [
-          "The total momentum of a closed system remains constant if no external forces act on it",
-          "Energy cannot be created or destroyed, only transformed or transferred",
-          "The pressure of a gas is inversely proportional to its volume at constant temperature",
-          "The force between two charges is directly proportional to the product of their charges and inversely proportional to the square of the distance between them"
+        "id": 9,
+        "question": "Which movie features the character of Darth Vader?",
+        "options": [
+          "Star Wars",
+          "The Godfather",
+          "The Avengers",
+          "The Lion King"
         ],
-        "correctAnswer": "The total momentum of a closed system remains constant if no external forces act on it"
-      }
-    ]
-  },
-
-  {
-    "_id": "3",
-    "name": "Chemistry",
-    "questions": [
-      {
-        "id": "1",
-        "question": "What is the SI unit of temperature?",
-        "answers": ["Kelvin", "Celsius", "Fahrenheit", "Rankine"],
-        "correctAnswer": "Kelvin"
-      },
-      {
-        "id": "2",
-        "question": "What is the SI unit of pressure?",
-        "answers": ["Pascal", "Newton", "Joule", "Watt"],
-        "correctAnswer": "Pascal"
-      },
-      {
-        "id": "3",
-        "question": "What is the SI unit of electric current?",
-        "answers": ["Ampere", "Coulomb", "Volt", "Ohm"],
-        "correctAnswer": "Ampere"
-      },
-      {
-        "id": "4",
-        "question": "What is the SI unit of energy?",
-        "answers": ["Joule", "Watt", "Newton", "Pascal"],
-        "correctAnswer": "Joule"
-      },
-      {
-        "id": "5",
-        "question": "What is the SI unit of frequency?",
-        "answers": ["Hertz", "Watt", "Joule", "Newton"],
-        "correctAnswer": "Hertz"
-      },
-      {
-        "id": "6",
-        "question": "What is the SI unit of power?",
-        "answers": ["Watt", "Joule", "Newton", "Volt"],
-        "correctAnswer": "Watt"
-      },
-      {
-        "id": "7",
-        "question": "What is the SI unit of electric charge?",
-        "answers": ["Coulomb", "Ampere", "Volt", "Ohm"],
-        "correctAnswer": "Coulomb"
-      },
-      {
-        "id": "8",
-        "question": "What is the SI unit of magnetic field?",
-        "answers": ["Tesla", "Watt", "Joule", "Newton"],
-        "correctAnswer": "Tesla"
-      },
-      {
-        "id": "9",
-        "question": "What is the SI unit of magnetic flux?",
-        "answers": ["Weber", "Watt", "Joule", "Newton"],
-        "correctAnswer": "Weber"
-      },
-      {
-        "id": "10",
-        "question": "What is the SI unit of magnetic flux density?",
-        "answers": ["Tesla", "Watt", "Joule", "Newton"],
-        "correctAnswer": "Tesla"
-      }
-    ]
-  },
-
-  {
-    "_id": "4",
-    "name": "Biology",
-    "questions": [
-      {
-        "id": "1",
-        "question": "What is the largest organ in the human body?",
-        "answers": ["Skin", "Heart", "Liver", "Brain"],
-        "correctAnswer": "Skin"
-      },
-      {
-        "id": "2",
-        "question": "What is the largest bone in the human body?",
-        "answers": ["Femur", "Tibia", "Fibula", "Humerus"],
-        "correctAnswer": "Femur"
-      },
-      {
-        "id": "3",
-        "question": "What is the largest muscle in the human body?",
-        "answers": ["Gluteus Maximus", "Biceps", "Triceps", "Quadriceps"],
-        "correctAnswer": "Gluteus Maximus"
-      },
-      {
-        "id": "4",
-        "question": "What is the largest internal organ in the human body?",
-        "answers": ["Liver", "Heart", "Brain", "Lungs"],
-        "correctAnswer": "Liver"
-      },
-      {
-        "id": "5",
-        "question": "What is the smallest bone in the human body?",
-        "answers": ["Stapes", "Malleus", "Incus", "Femur"],
-        "correctAnswer": "Stapes"
-      },
-      {
-        "id": "6",
-        "question": "What is the smallest muscle in the human body?",
-        "answers": ["Stapedius", "Sartorius", "Pectineus", "Gluteus Minimus"],
-        "correctAnswer": "Stapedius"
-      },
-      {
-        "id": "7",
-        "question": "What is the smallest organ in the human body?",
-        "answers": ["Pineal Gland", "Pituitary Gland", "Thyroid", "Appendix"],
-        "correctAnswer": "Pineal Gland"
-      },
-      {
-        "id": "8",
-        "question": "What is the smallest cell in the human body?",
-        "answers": ["Sperm", "Red Blood Cell", "White Blood Cell", "Platelet"],
-        "correctAnswer": "Sperm"
-      },
-      {
-        "id": "9",
-        "question": "What is the largest cell in the human body?",
-        "answers": ["Ovum", "Red Blood Cell", "White Blood Cell", "Platelet"],
-        "correctAnswer": "Ovum"
-      },
-      {
-        "id": "10",
-        "question": "What is the largest artery in the human body?",
-        "answers": [
-          "Aorta",
-          "Pulmonary Artery",
-          "Coronary Artery",
-          "Carotid Artery"
-        ],
-        "correctAnswer": "Aorta"
+        "answer": "Star Wars"
       }
     ]
   },
   {
-    "_id": "5",
-    "name": "Sports",
+    "_id": 2,
+    "name": "travelling",
     "questions": [
       {
-        "id": "1",
-        "question": "Which country won the FIFA World Cup in 2018?",
-        "answers": ["France", "Croatia", "Belgium", "England"],
-        "correctAnswer": "France"
+        "id": 1,
+        "question": "Which city is known as the 'City of Love'?",
+        "options": ["Paris", "Rome", "Venice", "Barcelona"],
+        "answer": "Paris"
       },
       {
-        "id": "2",
-        "question": "Who holds the record for the most home runs in Major League Baseball?",
-        "answers": ["Barry Bonds", "Hank Aaron", "Babe Ruth", "Alex Rodriguez"],
-        "correctAnswer": "Barry Bonds"
+        "id": 2,
+        "question": "What is the capital of Thailand?",
+        "options": ["Bangkok", "Hanoi", "Kuala Lumpur", "Jakarta"],
+        "answer": "Bangkok"
       },
       {
-        "id": "3",
-        "question": "Which tennis player has won the most Grand Slam titles?",
-        "answers": [
-          "Roger Federer",
-          "Rafael Nadal",
-          "Novak Djokovic",
-          "Serena Williams"
+        "id": 3,
+        "question": "Which country is famous for its tulip fields and windmills?",
+        "options": ["Netherlands", "Belgium", "Denmark", "Switzerland"],
+        "answer": "Netherlands"
+      },
+      {
+        "id": 4,
+        "question": "In which African country will you find the pyramids of Giza?",
+        "options": ["Egypt", "Sudan", "Algeria", "Morocco"],
+        "answer": "Egypt"
+      },
+      {
+        "id": 5,
+        "question": "What is the famous nickname for New York City?",
+        "options": [
+          "The Windy City",
+          "The Big Easy",
+          "The Big Apple",
+          "The City of Angels"
         ],
-        "correctAnswer": "Roger Federer"
+        "answer": "The Big Apple"
       },
       {
-        "id": "4",
-        "question": "Which country has won the most Olympic gold medals?",
-        "answers": ["United States", "Soviet Union", "China", "Great Britain"],
-        "correctAnswer": "United States"
+        "id": 6,
+        "question": "Which mountain range stretches across the northern part of India?",
+        "options": ["Andes", "Rocky Mountains", "Himalayas", "Alps"],
+        "answer": "Himalayas"
       },
       {
-        "id": "5",
-        "question": "Who is the all-time leading scorer in NBA history?",
-        "answers": [
-          "Kareem Abdul-Jabbar",
-          "LeBron James",
-          "Kobe Bryant",
-          "Michael Jordan"
+        "id": 7,
+        "question": "What is the currency of Japan?",
+        "options": ["Won", "Yuan", "Yen", "Ringgit"],
+        "answer": "Yen"
+      },
+      {
+        "id": 8,
+        "question": "Which ocean is the largest in the world?",
+        "options": [
+          "Atlantic Ocean",
+          "Indian Ocean",
+          "Southern Ocean",
+          "Pacific Ocean"
         ],
-        "correctAnswer": "Kareem Abdul-Jabbar"
+        "answer": "Pacific Ocean"
       },
       {
-        "id": "6",
-        "question": "Which team has won the most Super Bowl championships?",
-        "answers": [
-          "New England Patriots",
-          "Pittsburgh Steelers",
-          "San Francisco 49ers",
-          "Dallas Cowboys"
-        ],
-        "correctAnswer": "New England Patriots"
+        "id": 9,
+        "question": "What is the official language of Brazil?",
+        "options": ["Spanish", "Portuguese", "Italian", "French"],
+        "answer": "Portuguese"
       },
       {
-        "id": "7",
-        "question": "Who is the fastest man in the world?",
-        "answers": ["Usain Bolt", "Tyson Gay", "Yohan Blake", "Justin Gatlin"],
-        "correctAnswer": "Usain Bolt"
-      },
-      {
-        "id": "8",
-        "question": "Which golfer has won the most major championships?",
-        "answers": [
-          "Jack Nicklaus",
-          "Tiger Woods",
-          "Arnold Palmer",
-          "Phil Mickelson"
-        ],
-        "correctAnswer": "Jack Nicklaus"
-      },
-      {
-        "id": "9",
-        "question": "Which country has won the most FIFA World Cup titles?",
-        "answers": ["Brazil", "Germany", "Italy", "Argentina"],
-        "correctAnswer": "Brazil"
-      },
-      {
-        "id": "10",
-        "question": "Who is the most decorated Olympian of all time?",
-        "answers": [
-          "Michael Phelps",
-          "Usain Bolt",
-          "Simone Biles",
-          "Larisa Latynina"
-        ],
-        "correctAnswer": "Michael Phelps"
+        "id": 10,
+        "question": "In which European city would you find the Acropolis?",
+        "options": ["Rome", "Athens", "Barcelona", "Berlin"],
+        "answer": "Athens"
       }
     ]
   },
-
   {
-    "_id": "6",
-    "name": "History",
+    "_id": 3,
+    "name": "space",
     "questions": [
       {
-        "id": "1",
-        "question": "Who was the first President of the United States?",
-        "answers": [
-          "George Washington",
-          "Thomas Jefferson",
-          "John Adams",
-          "Abraham Lincoln"
+        "id": 1,
+        "question": "Which planet is known as the 'Red Planet'?",
+        "options": ["Mars", "Venus", "Jupiter", "Saturn"],
+        "answer": "Mars"
+      },
+      {
+        "id": 2,
+        "question": "Who was the first human to journey into space?",
+        "options": [
+          "Yuri Gagarin",
+          "Neil Armstrong",
+          "Buzz Aldrin",
+          "Valentina Tereshkova"
         ],
-        "correctAnswer": "George Washington"
+        "answer": "Yuri Gagarin"
       },
       {
-        "id": "2",
-        "question": "Which war was fought between the North and South regions of the United States?",
-        "answers": [
-          "American Civil War",
-          "World War I",
-          "World War II",
-          "Vietnam War"
+        "id": 3,
+        "question": "What is the largest planet in our solar system?",
+        "options": ["Earth", "Mars", "Jupiter", "Saturn"],
+        "answer": "Jupiter"
+      },
+      {
+        "id": 4,
+        "question": "Which celestial body is known as our 'Morning Star' or 'Evening Star'?",
+        "options": ["Mars", "Venus", "Mercury", "Saturn"],
+        "answer": "Venus"
+      },
+      {
+        "id": 5,
+        "question": "What is the name of the first artificial satellite launched into space?",
+        "options": ["Sputnik 1", "Explorer 1", "Vostok 1", "Apollo 11"],
+        "answer": "Sputnik 1"
+      },
+      {
+        "id": 6,
+        "question": "Which moon of Jupiter is known for its intense volcanic activity?",
+        "options": ["Titan", "Ganymede", "Io", "Europa"],
+        "answer": "Io"
+      },
+      {
+        "id": 7,
+        "question": "What is the name of the closest galaxy to the Milky Way?",
+        "options": ["Andromeda", "Triangulum", "Centaurus A", "Bode's Galaxy"],
+        "answer": "Andromeda"
+      },
+      {
+        "id": 8,
+        "question": "Who was the first person to set foot on the Moon?",
+        "options": [
+          "Yuri Gagarin",
+          "Buzz Aldrin",
+          "Neil Armstrong",
+          "Michael Collins"
         ],
-        "correctAnswer": "American Civil War"
+        "answer": "Neil Armstrong"
       },
       {
-        "id": "3",
-        "question": "Which country was responsible for the Holocaust during World War II?",
-        "answers": ["Germany", "Japan", "Italy", "Soviet Union"],
-        "correctAnswer": "Germany"
-      },
-      {
-        "id": "4",
-        "question": "Who wrote the Declaration of Independence?",
-        "answers": [
-          "Thomas Jefferson",
-          "George Washington",
-          "John Adams",
-          "Benjamin Franklin"
+        "id": 9,
+        "question": "What is the name of the largest volcano in our solar system?",
+        "options": [
+          "Mount Everest",
+          "Mauna Loa",
+          "Olympus Mons",
+          "Mount Vesuvius"
         ],
-        "correctAnswer": "Thomas Jefferson"
+        "answer": "Olympus Mons"
       },
       {
-        "id": "5",
-        "question": "Which city was the capital of the Roman Empire?",
-        "answers": ["Rome", "Athens", "Alexandria", "Constantinople"],
-        "correctAnswer": "Rome"
-      },
-      {
-        "id": "6",
-        "question": "Who was the leader of the Soviet Union during World War II?",
-        "answers": [
-          "Joseph Stalin",
-          "Vladimir Lenin",
-          "Mikhail Gorbachev",
-          "Nikita Khrushchev"
+        "id": 10,
+        "question": "Which spacecraft was the first to reach the orbit of Pluto?",
+        "options": [
+          "Voyager 1",
+          "New Horizons",
+          "Cassini",
+          "Hubble Space Telescope"
         ],
-        "correctAnswer": "Joseph Stalin"
+        "answer": "New Horizons"
+      }
+    ]
+  },
+  {
+    "_id": 4,
+    "name": "fitness",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Which exercise primarily targets the muscles in the chest?",
+        "options": ["Squats", "Deadlifts", "Bench Press", "Lunges"],
+        "answer": "Bench Press"
       },
       {
-        "id": "7",
-        "question": "Which country was the first to reach the moon?",
-        "answers": ["United States", "Soviet Union", "China", "India"],
-        "correctAnswer": "United States"
-      },
-      {
-        "id": "8",
-        "question": "Who was the first female Prime Minister of the United Kingdom?",
-        "answers": [
-          "Margaret Thatcher",
-          "Queen Elizabeth II",
-          "Theresa May",
-          "Angela Merkel"
+        "id": 2,
+        "question": "What does the acronym 'HIT' stand for in fitness?",
+        "options": [
+          "High-Intensity Interval Training",
+          "Heavy Impact Interval Training",
+          "Hypertrophy Intensity Interval Test",
+          "Healthy Inclusive Interval Therapy"
         ],
-        "correctAnswer": "Margaret Thatcher"
+        "answer": "High-Intensity Interval Training"
       },
       {
-        "id": "9",
-        "question": "Which event marked the beginning of World War I?",
-        "answers": [
-          "Assassination of Archduke Franz Ferdinand",
-          "Bombing of Pearl Harbor",
-          "Signing of the Treaty of Versailles",
-          "Invasion of Poland"
-        ],
-        "correctAnswer": "Assassination of Archduke Franz Ferdinand"
+        "id": 3,
+        "question": "Which muscle is often referred to as the 'six-pack'?",
+        "options": ["Biceps", "Quadriceps", "Abdominals", "Triceps"],
+        "answer": "Abdominals"
       },
       {
-        "id": "10",
-        "question": "Who was the first person to circumnavigate the globe?",
-        "answers": [
-          "Ferdinand Magellan",
-          "Christopher Columbus",
-          "James Cook",
-          "Marco Polo"
+        "id": 4,
+        "question": "What is the primary benefit of cardiovascular exercise?",
+        "options": [
+          "Increased flexibility",
+          "Muscle building",
+          "Improved endurance",
+          "Enhanced strength"
         ],
-        "correctAnswer": "Ferdinand Magellan"
+        "answer": "Improved endurance"
+      },
+      {
+        "id": 5,
+        "question": "What is the correct term for the number of calories burned at rest to maintain basic bodily functions?",
+        "options": [
+          "Active calories",
+          "Basal metabolic rate",
+          "Dietary calories",
+          "Exercise calories"
+        ],
+        "answer": "Basal metabolic rate"
+      },
+      {
+        "id": 6,
+        "question": "Which type of exercise involves stretching and balancing and often includes poses and postures?",
+        "options": [
+          "Cardiovascular exercise",
+          "Strength training",
+          "Pilates",
+          "Yoga"
+        ],
+        "answer": "Yoga"
+      },
+      {
+        "id": 7,
+        "question": "What is the recommended daily water intake for adults?",
+        "options": ["1 liter", "2 liters", "3 liters", "4 liters"],
+        "answer": "2 liters"
+      },
+      {
+        "id": 8,
+        "question": "Which nutrient is the body's primary source of energy?",
+        "options": ["Protein", "Carbohydrates", "Fat", "Vitamins"],
+        "answer": "Carbohydrates"
+      },
+      {
+        "id": 9,
+        "question": "What is the term for the excessive accumulation of body fat?",
+        "options": ["Obesity", "Anorexia", "Malnutrition", "Diabetes"],
+        "answer": "Obesity"
+      },
+      {
+        "id": 10,
+        "question": "Which activity is considered a form of anaerobic exercise?",
+        "options": ["Running", "Cycling", "Weightlifting", "Swimming"],
+        "answer": "Weightlifting"
+      }
+    ]
+  },
+  {
+    "_id": 5,
+    "name": "technology",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Which company is known for its iPhones, iPads, and Mac computers?",
+        "options": ["Microsoft", "Google", "Apple", "Samsung"],
+        "answer": "Apple"
+      },
+      {
+        "id": 2,
+        "question": "What does 'URL' stand for in the context of the internet?",
+        "options": [
+          "Uniform Resource Locator",
+          "Universal Reference Link",
+          "Unified Retrieval Locator",
+          "User Recognition Language"
+        ],
+        "answer": "Uniform Resource Locator"
+      },
+      {
+        "id": 3,
+        "question": "Which programming language is often used for web development and is known for its flexibility and ease of use?",
+        "options": ["Java", "Python", "JavaScript", "C++"],
+        "answer": "JavaScript"
+      },
+      {
+        "id": 4,
+        "question": "What is the term for a malicious software that is designed to cause harm to a computer system?",
+        "options": ["Firewall", "Antivirus", "Spyware", "Malware"],
+        "answer": "Malware"
+      },
+      {
+        "id": 5,
+        "question": "Who is the co-founder of Microsoft Corporation?",
+        "options": ["Bill Gates", "Steve Jobs", "Mark Zuckerberg", "Elon Musk"],
+        "answer": "Bill Gates"
+      },
+      {
+        "id": 6,
+        "question": "What is the largest social media platform in the world, with over 2.8 billion monthly active users?",
+        "options": ["Instagram", "Twitter", "Facebook", "LinkedIn"],
+        "answer": "Facebook"
+      },
+      {
+        "id": 7,
+        "question": "Which technology company is known for its search engine and online services?",
+        "options": ["Amazon", "Google", "Apple", "Microsoft"],
+        "answer": "Google"
+      },
+      {
+        "id": 8,
+        "question": "What is the term for the process of converting data into a coded form to prevent unauthorized access?",
+        "options": ["Decryption", "Encoding", "Encryption", "Authentication"],
+        "answer": "Encryption"
+      },
+      {
+        "id": 9,
+        "question": "Which technology is used for wireless communication and is commonly found in smartphones, headphones, and other devices?",
+        "options": ["Bluetooth", "NFC", "Wi-Fi", "GPS"],
+        "answer": "Bluetooth"
+      },
+      {
+        "id": 10,
+        "question": "What is the term for a set of instructions that a computer can execute to perform a specific task?",
+        "options": ["Algorithm", "Protocol", "Syntax", "Function"],
+        "answer": "Algorithm"
+      }
+    ]
+  },
+  {
+    "_id": 6,
+    "name": "cultures",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Which festival is known as the Festival of Lights and is widely celebrated in India?",
+        "options": ["Holi", "Diwali", "Navratri", "Eid"],
+        "answer": "Diwali"
+      },
+      {
+        "id": 2,
+        "question": "What is the traditional Japanese tea ceremony called?",
+        "options": [
+          "Sake Ceremony",
+          "Matcha Ceremony",
+          "Ramen Ceremony",
+          "Sushi Ceremony"
+        ],
+        "answer": "Matcha Ceremony"
+      },
+      {
+        "id": 3,
+        "question": "In which country is the ancient city of Petra located, famous for its rock-cut architecture?",
+        "options": ["Egypt", "Greece", "Jordan", "Iraq"],
+        "answer": "Jordan"
+      },
+      {
+        "id": 4,
+        "question": "What is the traditional dress of Scotland, usually worn by men for formal occasions?",
+        "options": ["Kimono", "Dirndl", "Kilt", "Sari"],
+        "answer": "Kilt"
+      },
+      {
+        "id": 5,
+        "question": "Which country is known for the famous Carnival festival, featuring colorful parades and elaborate costumes?",
+        "options": ["Brazil", "Italy", "Spain", "France"],
+        "answer": "Brazil"
+      },
+      {
+        "id": 6,
+        "question": "What is the traditional greeting in Japan where a slight bow is accompanied by placing the palms together?",
+        "options": ["Namaste", "Salute", "Handshake", "Bow"],
+        "answer": "Bow"
+      },
+      {
+        "id": 7,
+        "question": "Which country is known for its famous Oktoberfest celebration, featuring beer, traditional Bavarian music, and folk dances?",
+        "options": ["France", "Germany", "Belgium", "Netherlands"],
+        "answer": "Germany"
+      },
+      {
+        "id": 8,
+        "question": "In which country did the art form of origami originate?",
+        "options": ["China", "Japan", "Korea", "Vietnam"],
+        "answer": "Japan"
+      },
+      {
+        "id": 9,
+        "question": "What is the traditional dance form of Ireland, often characterized by fast footwork and lively movements?",
+        "options": ["Flamenco", "Tango", "Irish Step Dance", "Ballet"],
+        "answer": "Irish Step Dance"
+      },
+      {
+        "id": 10,
+        "question": "Which Hindu festival is known for the colorful throwing of powders and water, celebrating the arrival of spring?",
+        "options": ["Holi", "Diwali", "Navratri", "Eid"],
+        "answer": "Holi"
       }
     ]
   }
